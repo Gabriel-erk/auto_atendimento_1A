@@ -30,4 +30,19 @@
   - Identificamos os requisitos chave para o sucesso do sistema, focando na experiência do usuário e nas funcionalidades essenciais.  
   - Criamos diagramas de casos de uso e mapeamento das interações principais com o sistema, para melhor visualização do fluxo de trabalho e das necessidades do cliente.  
 
+# 📅 Diário de Desenvolvimento - 08/03/2025
+
+## 🌳 Requisitos Não Funcionais e Conclusão da Sprint
+
+- Durante a aula, desenvolvemos a **árvore de requisitos não funcionais**, identificando aspectos como:
+  - **Desempenho**
+  - **Segurança**
+  - **Usabilidade**
+  - **Manutenibilidade**
+  - **Confiabilidade**
+
+- A modelagem visual nos ajudou a compreender melhor como esses requisitos impactam o sistema e como devem ser considerados ao longo do desenvolvimento.
+
+- Com isso, **concluímos oficialmente a sprint no Jira**, encerrando todas as tarefas previstas e deixando o projeto pronto para a próxima etapa do planejamento.
+
 📌 *Seguimos com a organização do projeto para um desenvolvimento mais eficiente!* 🚀
