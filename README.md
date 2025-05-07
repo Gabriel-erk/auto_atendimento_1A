@@ -7,8 +7,14 @@
  - Cadastro do paciente:
     Nome, CPF, tipo sanguíneo, presença de deficiência, convênio, entre outros.
 
+ - Alteração de informações do paciente:
+   Paciente poderá atualizar suas informações registradas anteriormente.
+
  - Autoavaliação de sintomas:
     Sistema de perguntas sobre sintomas como dor, febre, dificuldade para respirar, etc.
+
+ - Acompanhamento:
+    Sistema mostrará ao paciente o status atual da sua solicitação de atendimento: em análise ou aprovada.
 
  - Classificação de risco automatizada (pré-triagem):
     Identifica possíveis emergências com base nas respostas.
