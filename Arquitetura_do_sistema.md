@@ -5,7 +5,7 @@
 | Data       | Versão | Descrição                | Autor  |
 | ---------- | ------ | ------------------------ | ------ |
 | DD/MM/AAAA | 1.0    | Versão inicial           | [Nome] |
-| DD/MM/AAAA | 1.1    | [Descrição da alteração] | [Nome] |
+
 
 ## 1. Introdução
 
