@@ -129,7 +129,7 @@ Ainda não foram implementadas funcionalidades no sistema.
 
 ### 7.1 Cronograma
 
-[Comparação entre cronograma planejado e realizado]
+- Em relação ao ccronograma planejado, apenas não conseguimos realizar a completa prototipação até o momento.
 
 ### 7.2 Sprints Concluídas
 
@@ -142,6 +142,8 @@ Ainda não foram implementadas funcionalidades no sistema.
 - Segurança: O sistema deve bloquear qualquer tentativa de login após 5 tentativas.
 
 ## 8. Desafios e Soluções
+
+- 
 
 ### 8.1 Principais Desafios
 
