@@ -1,4 +1,74 @@
-# 📅 Diário de Desenvolvimento - 18/03/2025  
+# 📅 Diário de Desenvolvimento 
+- Grupo:  
+- **Integrantes:** Emanuel Souza, João Vitor Rossi, Gabriel Freitas, Gabriel Erick, Daneil Oliveira Farias e Victor Rodrigues.
+- 
+## Informações Básicas 
+- *Dados:* 18/03/2025, *Membros Presentes: Emanuel Souza, João Vitor Rossi, Gabriel Freitas, Gabriel Erick, Daneil Oliveira Farias e Victor Rodrigues. *Tema da Semana:* Criação das plataformas que vamos usar ao decorrer do processo.*
+
+## Atividade Realizadas
+
+# Descrição das atividades: 
+
+- Criamos um painel no Jira para organizar nossas tarefas utilizada.
+- Configuramos um *Repositório no GitHub* para o projeto.
+- Adicionamos os Membros da equipe em ambos dos sistemas.
+
+  ## Distribuição de Tarefas
+
+- **********************
+-**********************
+-***************
+
+## Dificuldades e Soluções
+# Desafios Encontrados:
+-**************************
+# Soluções Encontradas:
+- ************************
+
+## Conhecimentos adqueridos:  
+- Entendemos mais sobre o sprints 
+- Criamos mais *Familiaridade* com o Jira 
+
+## Conhecimento adqueridos: 29/03/2025  
+- Workflows
+- Utilização do *Blacklog*
+- Experiências com o *Diagrama*
+
+## Reflexão sobre Aplicação dos Conceitos
+#Conceitos teóricos aplicados:
+-  1° ************
+-  2° ************
+# Insights obtidos:
+- *********
+- *********
+# Conexções com conteúdos anteriores:
+- **************
+
+## Próximos passos
+# Planejamentos para próxima aula:
+- **************
+- **************
+
+# Tarefas pendentes:
+- *****
+- *****
+# objetivos para a próxima semana:
+- *******
+- *******
+- # Registro Visuais 
+- **********
+
+
+
+
+
+
+
+    
+ 
+
+
+  
 
 ## 🚀 O que fizemos hoje:  
 - Criamos um **painel no Jira** para organizar nossas tarefas.  
@@ -16,7 +86,7 @@
 
 - **Refinamento do Product Backlog** 📌  
   - Priorizamos as tarefas conforme o impacto no projeto.  
-  - Ajustamos descrições de histórias de usuário para atender aos critérios **INVEST**.  
+  - Ajustamos descrições de histórias de usuário   
   - Realizamos estabelecimento da **Definition of Ready** e sua documentação no Jira.
   - Priorizamos tarefas mais importantes em nosso backlog.
 
