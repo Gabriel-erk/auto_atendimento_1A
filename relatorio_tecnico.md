@@ -65,6 +65,9 @@
 [Descrição da arquitetura adotada]
 
 ### 4.2 Diagramas
+[diagrama de dados](diagrama_dados.md)
+[fluxo BPNM](fluxo_BPNM.md)
+[mermaid](mermaid.md)
 
 
 ### 4.3 Decisões de Design
