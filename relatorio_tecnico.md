@@ -60,9 +60,15 @@
 
 ## 4. Arquitetura e Design
 
+- Design responsivo
+
 ### 4.1 Visão Geral da Arquitetura
 
-[Descrição da arquitetura adotada]
+- Front-end (interfaces do usuário)
+- Back-end (lógica do sistema)
+- APIs (para expansão do sistema para versão mobile)
+- Banco de Dados 
+- Segurança e Autenticação (camada para realizar a proteção dos dados e autenticação do usuário)
 
 ### 4.2 Diagramas
 -[diagrama de dados](diagrama_dados.md)
@@ -89,35 +95,35 @@ Com esse sistema, o paciente resolve boa parte do processo sozinho, o que ajuda 
 
 ### 4.4 Protótipos
 
-[Descrição dos protótipos desenvolvidos]
+- Desenvolvemos protótipos das telas de cadastro, login e home para desktops e celulares na plataforma FIGMA.
 
 ## 5. Implementação Atual
 
 ### 5.1 Funcionalidades Implementadas
 
-[Descrição das funcionalidades já implementadas]
+Ainda não foram implementadas funcionalidades no sistema.
 
 ### 5.2 Tecnologias Utilizadas
 
-[Descrição das tecnologias, frameworks e bibliotecas utilizadas]
+- MERMAID, DRAW.IO, JIRA, FIGMA, MIRO, GITHUB.
 
 ### 5.3 Código-fonte
 
-[Resumo da estrutura do código-fonte ou referência ao repositório]
+(https://github.com/Gabriel-erk/auto_atendimento_1A)
 
 ## 6. Testes
 
 ### 6.1 Abordagem de Teste
 
-[Descrição da estratégia de teste adotada]
+- iremos validar o sistema testando os requisitos funcionais e não funcionais para verificar se atendem aos objetivos.
 
 ### 6.2 Testes Realizados
 
-[Descrição dos testes já realizados]
+- comparamos os requisitos com os objetivos do sistema, realizando alteração constante.
 
 ### 6.3 Resultados
 
-[Resultados dos testes, incluindo métricas relevantes]
+- alteramos inconsistências e acrescentamos novas ideias.
 
 ## 7. Progresso do Projeto
 
@@ -127,39 +133,49 @@ Com esse sistema, o paciente resolve boa parte do processo sozinho, o que ajuda 
 
 ### 7.2 Sprints Concluídas
 
-[Resumo das sprints concluídas até o momento]
+- Sprint 1: realizamos a montagem do backlog, criamos histórias de usuário documentando requisitos funcionais, não funcionais e diagramas.
 
 ### 7.3 Métricas
 
-[Métricas do projeto: velocidade, qualidade, etc.]
+- Disponibilidade: O sistema deve estar disponível 99,9% do tempo.
+- Escalabilidade: O sistema deve ser capaz de suportar 1.000 usuários simultaneamente.
+- Segurança: O sistema deve bloquear qualquer tentativa de login após 5 tentativas.
 
 ## 8. Desafios e Soluções
 
 ### 8.1 Principais Desafios
 
-[Descrição dos principais desafios enfrentados]
+-Os principais desafios encontrados até o momento foi a usabilidade do jira, uso do github e divisão de tarefas.
 
 ### 8.2 Soluções Adotadas
 
-[Descrição das soluções adotadas para superar os desafios]
+-As soluções que encontramos para resolver os nossos problemas foi reunir com o grupo para dividir as tarefas visando a dificuldade de cada um, e estudo das plataformas apresentadas como github e jira.
 
 ## 9. Próximos Passos
 
+- Última análise de requisitos
+- Realizar prototipação das telas
+- Implementação do Sistema
+
 ### 9.1 Funcionalidades Planejadas
 
-[Descrição das próximas funcionalidades a serem implementadas]
+-O proximo objetivo no projeto é fazer as telas e integração com os sistemas internos dos hospitais.
 
 ### 9.2 Melhorias Previstas
 
-[Descrição das melhorias planejadas para a segunda fase]
+-Melhorias de acessibilidade.
+-Melhorias de design.
+-melhorias de escalabilidades.
 
 ### 9.3 Cronograma Atualizado
 
-[Cronograma atualizado para a conclusão do projeto]
+-Programamos a finalização do projeto para o dia 06/06/2025
 
 ## 10. Lições Aprendidas
 
-[Descrição das principais lições aprendidas até o momento]
+-Entendimento do funcionamento do "SOLID" na prática.
+-Fizemos diagramas de classes usando codigo, que foi muito esclarecedor e objetivo.
+
 
 ## 11. Conclusão
 
