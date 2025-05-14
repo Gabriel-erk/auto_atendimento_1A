@@ -14,16 +14,22 @@
 - Adicionamos os Membros da equipe em ambos dos sistemas.
 
   ## Distribuição de Tarefas
-
-- **********************
--**********************
--***************
+  - Gabriel Erick: Criar *Repositorio no GitHub*
+  - Gabriel Erick: Criou o diário de Bordo
+  - Daniel: Criou perfil no Jira
+  - Victor: Criou perfil no Jira
+  - Emanuel: Criou perfil no Jira
+  - João Vitor R.: Criou perfil no Jira
+  - Gabriel Freitas: Criou perfil no Jira
+  - Emanuel: Criou o painel do *Jira*
 
 ## Dificuldades e Soluções
 # Desafios Encontrados:
--**************************
+- *Usabilidade encontrada no Jira*
+- *Usabilidade do GitHub*
+  
 # Soluções Encontradas:
-- ************************
+- Praticar o uso do *jira e GitHub* ao longo do projeto
 
 ## Conhecimentos adqueridos:  
 - Entendemos mais sobre o sprints 
@@ -36,27 +42,24 @@
 
 ## Reflexão sobre Aplicação dos Conceitos
 #Conceitos teóricos aplicados:
--  1° ************
--  2° ************
+-  1° *Diagramas de Classes No mermaid.*
+-  2° Uso da linguagem *MD*.
+
 # Insights obtidos:
-- *********
-- *********
-# Conexções com conteúdos anteriores:
-- **************
+- Entendemos como funciona o *SOLID* na prática
+- fizemos o diagrama de classes usando codígo o que foi muito esclarecedor e objetivo
+  
+# Conexões com conteúdos anteriores:
+- Colocamos em prática o que estudamos na teoria sobre o diagrama de classes
 
 ## Próximos passos
 # Planejamentos para próxima aula:
-- **************
-- **************
+- 13/05 - Terminar estilo arquitetural *MVC*
+- Terminar o restante das atividades previstas
 
 # Tarefas pendentes:
-- *****
-- *****
-# objetivos para a próxima semana:
-- *******
-- *******
-- # Registro Visuais 
-- **********
+- *MVC* 
+- Atividades 1, 2, 3, 5, 6
 
 
 
