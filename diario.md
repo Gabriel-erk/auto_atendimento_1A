@@ -1,4 +1,4 @@
-# 📅 Diário de Desenvolvimento 
+# Diário de Desenvolvimento 
 - Grupo:  
 - **Integrantes:** Emanuel Souza, João Vitor Rossi, Gabriel Freitas, Gabriel Erick, Daneil Oliveira Farias e Victor Rodrigues.
 - 
@@ -80,7 +80,7 @@
 
 ---
 
-# 📅 Diário de Desenvolvimento - 29/03/2025  
+# Diário de Desenvolvimento - 29/03/2025  
 
 ## 🔧 O que fizemos hoje:  
 - **Configuração do Ambiente JIRA para Gerenciamento Ágil** 🛠️  
@@ -103,9 +103,9 @@
   - Identificamos os requisitos chave para o sucesso do sistema, focando na experiência do usuário e nas funcionalidades essenciais.  
   - Criamos diagramas de casos de uso e mapeamento das interações principais com o sistema, para melhor visualização do fluxo de trabalho e das necessidades do cliente.  
 
-# 📅 Diário de Desenvolvimento - 08/03/2025
+# Diário de Desenvolvimento - 08/03/2025
 
-## 🌳 Requisitos Não Funcionais e Conclusão da Sprint
+## Requisitos Não Funcionais e Conclusão da Sprint
 
 - Durante a aula, desenvolvemos a **árvore de requisitos não funcionais**, identificando aspectos como:
   - **Desempenho**
@@ -118,4 +118,11 @@
 
 - Com isso, **concluímos oficialmente a sprint no Jira**, encerrando todas as tarefas previstas e deixando o projeto pronto para a próxima etapa do planejamento.
 
-📌 *Seguimos com a organização do projeto para um desenvolvimento mais eficiente!* 🚀
+ *Seguimos com a organização do projeto para um desenvolvimento mais eficiente!* 
+
+ # Diário de Desenvolvimento - 13/05/2025
+ ## Modelagem do nosso github
+   Nós buscamos seguir os parametros passsados pelo professor sobre como planejar o GitHub, com isso foi criado 
+   - Retrospectiva_reunião: onde anotamos o que foi falado em nossas reuniões, documentando tudo que fizemos nela
+   - Arquitetura do Sistema: é um dos documentos principais, onde deixamos documentados toda a base do nosso sistema, deixamos ali os fluxogramas e toda a arquitetura, tem muito a ser melhorado mas foi um ótimo começo
+
