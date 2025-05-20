@@ -185,7 +185,7 @@ Ainda não foram implementadas funcionalidades no sistema.
 
 ## 12. Anexos
 
-##13. Protótipação 
+## 13. Protótipação 
 ### 13.1 O que é?
   O protótipo tem como propósito elaborar juntamente com o usuário as telas para o sistema e suas funcionalidades usando o Figma. Isso é muito util pois, se o usuário pedir alteração (que muito provavelmente vai acontecer) não será difícil fazer as alterações e acertar qual seria o ideal para o cliente, assim, tendo isso em mãos, será apenas reproduzir isso com os códigos e entregar o resultado ao cliente, enconomizando tempo e dinheiro. 
 
