@@ -104,13 +104,12 @@ A finalidade é ser um sistema de *Pronto atendimento* onde o cliente poderá da
 [Atributos de qualidade e como são atendidos pela arquitetura]
 
 ## 12. Princípios SOLID Aplicados
-
-[Descrição de como os princípios SOLID foram aplicados na arquitetura]
+  - Princípio da Responsabilidade Unica: Para atender esse primeiro requisito, nosso diagrama de classes foi estruturado de uma forma que cada classe tenha apenas uma unica função. Para isso, classes grandes com muitas funções foram divididas em classes pequenas que herdaram essas funções delas. 
 
 ## 13. Padrões de Design Utilizados
-o espaçamento entre os elementos e o fim da tela é de 15 nas laterais, 50 de um elemento maior para o outro (como dos botões para outros grupos de itens)
-Usamos a fonte Poppins: Titulo principal 32 | Subtitulo 24 | titulo auxiliar 16 | textos 14 | descrições 12|
-utilizamos como base 3 cores (Azul piscina: #46BEBA | Azul escuro #0E4067 | Branco #FFFFFF
+- Espaçamento: Entre os elementos e o fim da tela é de 15 nas laterais, 50 de um elemento maior para o outro (como dos botões para outros grupos de itens)
+- Fontes: Usamos a fonte Poppins: Titulo principal 32 | Subtitulo 24 | titulo auxiliar 16 | textos 14 | descrições 12|
+- Cores: Utilizamos como base 4 cores (Azul piscina: #46BEBA | Azul escuro #0E4067 | Branco #FFFFFF | Azul claro #ECFAFA |)
 
 >[!TIP]
 >Ao longo do desenvolvimento, revise este documento para garantir que a implementação esteja alinhada com a arquitetura planejada. Documente as decisões arquiteturais importantes, incluindo as alternativas consideradas e os motivos da escolha final.
