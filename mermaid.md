@@ -1,17 +1,17 @@
 classDiagram
  usuario --> Tela Login: passa pela  
- Tela Login --> PerfildeCliente: envia 
- Tela Login --> cadastro_clientes: envia
- consulta --> cancelamento: realiza 
- consulta --> editar : permite
- consulta --> agendamento : faz o 
- usuario --> consulta: passa pela
- medico --> consulta
- usuario --> Triagem : passa pela
- Triagem --> medico: da o diagnostico ao 
- Tela Login --> consulta: informa 
- medico -->historico: consulta
- usuario -->historico: consulta
+ Tela Login --> PerfildeCliente: envia  
+ Tela Login --> cadastro_clientes: envia 
+ consulta --> cancelamento: realiza  
+ consulta --> editar : permite 
+ consulta --> agendamento : faz o  
+ usuario --> consulta: passa pela 
+ medico --> consulta 
+ usuario --> Triagem : passa pela 
+ Triagem --> medico: da o diagnostico ao  
+ Tela Login --> consulta: informa  
+ medico -->historico: consulta 
+ usuario -->historico: consulta 
     class usuario {
         -int Usuario ID
         +String Usuario Nome
