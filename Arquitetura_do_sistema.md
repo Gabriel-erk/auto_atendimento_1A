@@ -2,16 +2,16 @@
 
 ## Histórico de Revisões desde Arquivo
 
-| Data       | Versão | Descrição                | Autor  |
-| ---------- | ------ | ------------------------ | ------ |
-| DD/MM/AAAA | 1.0    | Versão inicial           | [Nome] |
+| Data       | Versão | Descrição                | Autor   |
+| ---------- | ------ | ------------------------ | --------|
+| 20/05/2025 | 1.0    | Versão inicial           | Emanuel |
 
 
 ## 1. Introdução
 
 ### 1.1 Finalidade
 
-[Descrição da finalidade deste documento]
+A finalidade é ser um sistema de *Pronto atendimento* onde o cliente poderá dar entrada no hospital de forma online reservando um espaço na fila, dessa forma, ele receberá uma senha assim facilitando seu acesso sem ter que passar por uma recepção.
 
 ### 1.2 Escopo
 
