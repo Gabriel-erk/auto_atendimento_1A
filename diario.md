@@ -126,3 +126,17 @@
    - Retrospectiva_reunião: onde anotamos o que foi falado em nossas reuniões, documentando tudo que fizemos nela
    - Arquitetura do Sistema: é um dos documentos principais, onde deixamos documentados toda a base do nosso sistema, deixamos ali os fluxogramas e toda a arquitetura, tem muito a ser melhorado mas foi um ótimo começo
 
+# Diário de Desenvolvimento - 20/05/2025
+## Protótipação 
+  Nessa aula de hoje vimos princípios de protótipação 
+  vimos questões como: Usabilidade do clinte, testes das telas divididos por equipes, Como pensar um bom fluxo de tela para o cliente, Mapear os processos do cliente para que o sistema o atenda perfeitamente, entre outras coisas. 
+
+  ###Atividades da aula: 
+  1- Prototipagem de média fidelidade:
+  Criar o modelo no Figma 
+  -Está feito 
+  regras de Padronização 
+  - o espaçamento entre os elementos e o fim da tela é de 15 nas laterais, 50 de um elemento maior para o outro (como dos botões para outros grupos de itens)
+  - Usamos a fonte Poppins: Titulo principal 32 | Subtitulo 24 | titulo auxiliar 16 | textos 14 | descrições 12| 
+  - utilizamos como base 3 cores (Azul piscina: #46BEBA    | Azul escuro #0E4067    | Branco #FFFFFF
+
