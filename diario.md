@@ -131,7 +131,7 @@
   Nessa aula de hoje vimos princípios de protótipação 
   vimos questões como: Usabilidade do clinte, testes das telas divididos por equipes, Como pensar um bom fluxo de tela para o cliente, Mapear os processos do cliente para que o sistema o atenda perfeitamente, entre outras coisas. 
 
-  ###Atividades da aula: 
+  ### Atividades da aula: 
   1- Prototipagem de média fidelidade:
   Criar o modelo no Figma 
   -Está feito 
