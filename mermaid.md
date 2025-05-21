@@ -1,5 +1,5 @@
 classDiagram
- usuario --> Tela Login: passa pela 
+ usuario --> Tela Login: passa pela  
  Tela Login --> PerfildeCliente: envia 
  Tela Login --> cadastro_clientes: envia
  consulta --> cancelamento: realiza 
