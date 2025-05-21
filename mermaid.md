@@ -5,7 +5,7 @@ classDiagram
  consulta --> cancelamento: realiza 
  consulta --> editar : permite
  consulta --> agendamento : faz o 
- usuario --> consulta: passa pela 
+ usuario --> consulta: passa pela
  medico --> consulta
  usuario --> Triagem : passa pela
  Triagem --> medico: da o diagnostico ao 
