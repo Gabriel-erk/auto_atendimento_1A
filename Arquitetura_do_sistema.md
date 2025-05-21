@@ -108,8 +108,9 @@ A finalidade é ser um sistema de *Pronto atendimento* onde o cliente poderá da
 [Descrição de como os princípios SOLID foram aplicados na arquitetura]
 
 ## 13. Padrões de Design Utilizados
-
-[Descrição dos padrões de design utilizados e em quais componentes]
+o espaçamento entre os elementos e o fim da tela é de 15 nas laterais, 50 de um elemento maior para o outro (como dos botões para outros grupos de itens)
+Usamos a fonte Poppins: Titulo principal 32 | Subtitulo 24 | titulo auxiliar 16 | textos 14 | descrições 12|
+utilizamos como base 3 cores (Azul piscina: #46BEBA | Azul escuro #0E4067 | Branco #FFFFFF
 
 >[!TIP]
 >Ao longo do desenvolvimento, revise este documento para garantir que a implementação esteja alinhada com a arquitetura planejada. Documente as decisões arquiteturais importantes, incluindo as alternativas consideradas e os motivos da escolha final.
