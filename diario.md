@@ -139,4 +139,8 @@
   - o espaçamento entre os elementos e o fim da tela é de 15 nas laterais, 50 de um elemento maior para o outro (como dos botões para outros grupos de itens)
   - Usamos a fonte Poppins: Titulo principal 32 | Subtitulo 24 | titulo auxiliar 16 | textos 14 | descrições 12| 
   - utilizamos como base 3 cores (Azul piscina: #46BEBA    | Azul escuro #0E4067    | Branco #FFFFFF
+   # Diário de Desenvolvimento - 21/05/2025
+ ## Término do baixa fidelidade e continuidade no média 
+ Hoje terminamos os prótotipos de baixa fidelidade no nosso Figma, continuamos construindo o média e ja contamos com as telas de login, cadastro e home quase prontas.
+ 
 
