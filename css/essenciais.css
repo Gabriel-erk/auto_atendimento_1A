@@ -1,0 +1,14 @@
+.generos {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    color: var(--cor-secundaria);
+}
+
+select {
+    border: none;
+    font-family: var(--font-principal);
+    color: var(--cor-secundaria);
+    width: 100%;
+    font-weight: 500;
+}

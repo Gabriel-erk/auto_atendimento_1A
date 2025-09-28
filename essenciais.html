@@ -31,32 +31,58 @@
                 <div class="input-group">
                     <label for="data_nascimento" class="input-label">Data de nascimento</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/envelope.svg" alt="Ícone de envelope" class="input-icon">
-                        <input type="date" id="data_nascimento" name="data_nascimento" placeholder="DD/MM/AAAA" required>
+                        <img src="img/essenciais/icone/calendar.svg" alt="Ícone de calendário" class="input-icon">
+                        <input type="date" id="data_nascimento" name="data_nascimento" placeholder="DD/MM/AAAA"
+                            required>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <label for="genero" class="input-label">Gênero</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
-                        <input type="text" id="genero" name="genero" placeholder="Digite seu gênero" required>
+                        <img src="img/essenciais/icone/gender-intersex.svg" alt="Ícone de genero" class="input-icon">
+
+                        <div class="generos">
+
+                            <div>
+                                <input type="radio" id="homem" name="drone" value="homem" />
+                                <label for="homem">Homem</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="mulher" name="drone" value="mulher" />
+                                <label for="mulher">Mulher</label>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <label for="tipo_sanguineo" class="input-label">Tipo sanguíneo</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
-                        <input type="text" id="tipo_sanguineo" name="tipo_sanguineo" placeholder="Digite seu tipo sanguíneo" required>
+                        <img src="img/essenciais/icone/drop-simple.svg" alt="Ícone de gota de sangue"
+                            class="input-icon">
+                        <select name="tipo_sanguineo" id="tipo-sanguineo-select">
+                            <option value="">Por favor selecione</option>
+                            <option value="a_pos">A+</option>
+                            <option value="a_neg">A-</option>
+                            <option value="b_pos">B+</option>
+                            <option value="b_neg">B-</option>
+                            <option value="ab_pos">AB+</option>
+                            <option value="ab_neg">AB-</option>
+                            <option value="o_pos">O+</option>
+                            <option value="o_neg">O-</option>
+                        </select>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <label for="condicao_preexistente" class="input-label">Condição pré-existente</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
-                        <input type="text" id="condicao_preexistente" name="condicao_preexistente" placeholder="Digite sua condição pré-existente" required>
+                        <img src="img/essenciais/icone/syringe.svg" alt="Ícone de seringa" class="input-icon">
+                        <input type="textarea" id="condicao_preexistente" name="condicao_preexistente"
+                            placeholder="Digite sua condição pré-existente" required>
                     </div>
                 </div>
 
