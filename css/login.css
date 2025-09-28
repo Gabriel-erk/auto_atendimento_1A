@@ -6,6 +6,7 @@ header{
 }
 
 .logo {
+    margin-top: 2rem;
     width: 100px;
     display: block
 }
@@ -18,7 +19,16 @@ header{
     margin-top: 2rem;
 }
 
+.input-label {
+    color: var(--subtitulo-campo-formulario-login);
+}
+
 .input-icon {
     width:2rem;
+}
+
+.esqueceu-senha a {
+    color: var(--subtitulo-campo-formulario-login);
+    text-decoration: none;
 }
 

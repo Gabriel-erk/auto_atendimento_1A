@@ -22,9 +22,9 @@
 
     <main class="container">
         <div class="texto-login">
-            <h1>Login</h1>
+            <h2>Login</h2>
             <p>Preencha os campos abaixo para acessar.</p>
-            <p>Ou você pode se <a href="#">Registrar aqui!</a></p>
+            <p>Ou você pode se <a href="#" style="font-size: var(--font-size-base);">Registrar aqui!</a></p>
         </div>
 
         <div class="formulario-login">
@@ -45,13 +45,18 @@
                     </div>
                 </div>
 
-                <div class="input-group checkbox-group">
-                    <input type="checkbox" id="remember-me" name="remember-me">
-                    <label for="remember-me">Lembrar-me</label>
+                <div class="rodape-login">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <label for="remember-me" style="font-size: var(--font-size-sm);">Lembrar de mim</label>
+                    </div>
+                    
+                    <div class="esqueceu-senha">
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
                 </div>
 
-                <button type="submit" class="btn-login">Entrar</button>
-                <p class="forgot-password"><a href="#">Esqueceu sua senha?</a></p>
+                <button type="submit" class="btn-login">Login</button>
             </form>
         </div>
     </main>
