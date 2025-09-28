@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Sistema de Autoatendimento</title>
+    <title>Cadastro - Sistema de Autoatendimento</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,9 +22,9 @@
 
     <main class="container">
         <div class="texto-login">
-            <h2>Login</h2>
-            <p>Preencha os campos abaixo para acessar.</p>
-            <p>Ou você pode se <a href="cadastro.html" style="font-size: var(--font-size-base);">Registrar aqui!</a></p>
+            <h2>Cadastro</h2>
+            <p>Preencha os campos abaixo para criar uma conta.</p>
+            <p>Ou você pode <a href="login.html" style="font-size: var(--font-size-base);">Entrar aqui!</a></p>
         </div>
 
         <div class="formulario-login">
@@ -45,10 +45,27 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn-login">Login</button>
+                <div class="input-group">
+                    <label for="confirm_password" class="input-label">Confirmar senha</label>
+                    <div class="input-wrapper">
+                        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
+                        <input type="password" id="confirm_password" name="confirm_password"
+                            placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-login">Prosseguir</button>
             </form>
         </div>
     </main>
 </body>
 
 </html>
+
+<div class="input-group">
+    <label for="confirm_password" class="input-label">Confirmar senha</label>
+    <div class="input-wrapper">
+        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirme sua senha" required>
+    </div>
+</div>
