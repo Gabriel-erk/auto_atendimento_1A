@@ -76,3 +76,30 @@
     transition: background-color 0.3s ease;
     width: 100%;
 }
+
+
+.redes-sociais {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.redes-sociais h4 {
+    color: var(--subtitulo-campo-formulario-login);
+    margin-bottom: 1rem;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.icones img{
+    width: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icones img:hover {
+    transform: scale(1.1);
+}
