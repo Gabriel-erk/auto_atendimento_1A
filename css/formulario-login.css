@@ -77,6 +77,11 @@
     width: 100%;
 }
 
+.btn-login a {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
 
 .redes-sociais {
     text-align: center;
