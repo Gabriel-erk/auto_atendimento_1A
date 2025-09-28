@@ -1,0 +1,28 @@
+:root {
+    --cor-primaria: #46beba;
+    --cor-secundaria: #0E4067;
+    --cor-terciaria: #fff;
+    --cor-quaternaria: #ecfafa;
+
+    --descricao: #000000;
+    --subtitulo-campo-formulario-login: #999999;
+
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+/* 
+* reset básico das configurações padrão do navegador.
+* → seleciona todos os elementos.
+margin: 0; → tira a margem padrão.
+padding: 0; → tira o padding padrão.
+box-sizing: border-box; → faz com que largura/altura já incluam padding e border, evitando contas chatas.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}

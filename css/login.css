@@ -1,0 +1,19 @@
+@import url(main.css);
+
+header{
+    margin: 0 1rem;
+}
+
+.logo {
+    width: 100px;
+    display: block
+}
+
+.container {
+    margin: 2rem;
+}
+
+.formulario-login {
+    margin-top: 2rem;
+}
+
