@@ -1,54 +1,64 @@
 :root {
-    --cor-primaria: #46beba;
-    --cor-secundaria: #0E4067;
-    --cor-terciaria: #fff;
-    --cor-quaternaria: #ecfafa;
+  --cor-primaria: #46beba;
+  --cor-secundaria: #0e4067;
+  --cor-terciaria: #fff;
+  --cor-quaternaria: #ecfafa;
 
-    --descricao: #000000;
-    --subtitulo-campo-formulario-login: #4d4d4d;
+  /* 
+    #6FF0DE era essa cor em rgb abaixo, porém eu precisava de 73% de opacidade nela onde com rgb ficaria mais legível de fazer, que fica da seguinte forma em RGB :
+    R: 111
+    G: 240
+    B: 222
+    O 0.73 no final representa 73% de opacidade (ou 27% de transparência). 
+  */
+  --cor-nav-bar: rgba(111, 240, 222, 0.73);
 
-    --fonte-principal: 'Poppins', sans-serif;
+  --descricao: #000000;
+  --subtitulo-campo-formulario-login: #4d4d4d;
 
-    --font-size-sm: 0.875rem;     /* 14px */
-    --font-size-base: 1rem;     /* 16px */
-    --font-size-base-md: 1.25rem; /* 20px */
-    --font-size-md: 1.5rem; /* 24px */
-    --font-size-lg: 2.25rem; /* 36px */
-    --font-size-xl: 3rem; /* 48px */
+  --fonte-principal: "Poppins", sans-serif;
+
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-base-md: 1.25rem; /* 20px */
+  --font-size-md: 1.5rem; /* 24px */
+  --font-size-lg: 2.25rem; /* 36px */
+  --font-size-xl: 3rem; /* 48px */
 }
 
 h1 {
-    font-size: var(--font-size-xl);
-    font-weight: 500;
-    /* Medium */
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  /* Medium */
 }
 
 h2 {
-    font-size: var(--font-size-lg);
-    font-weight: 500;
-    /* Medium */
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  /* Medium */
 }
 
 h3 {
-    font-size: var(--font-size-md);
-    font-weight: 400;
-    /* Regular */
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  /* Regular */
 }
 
 h4 {
-    font-size: var(--font-size-base-md);
-    font-weight: 400;
-    /* Medium */
+  font-size: var(--font-size-base-md);
+  font-weight: 400;
+  /* Medium */
 }
 
 p {
-    font-size: var(--font-size-base);
-    font-weight: 400;
-    /* Regular */
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  /* Regular */
 }
 
-span, a {
-    font-size: var(--font-size-sm);
+span,
+a {
+  font-size: var(--font-size-sm);
 }
 
 /* 
@@ -59,11 +69,11 @@ padding: 0; → tira o padding padrão.
 box-sizing: border-box; → faz com que largura/altura já incluam padding e border, evitando contas chatas.
 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--fonte-principal);
+  font-family: var(--fonte-principal);
 }

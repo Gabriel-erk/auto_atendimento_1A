@@ -1,7 +1,7 @@
 @import url(main.css);
 @import url(formulario-login.css);
 @import url(essenciais.css);
-@import url(home.css);
+@import url(index.css);
 
 header{
     margin: 0 1rem;

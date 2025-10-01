@@ -1,37 +1,62 @@
-.img-hospital {
-    width: 100vw;
-    mask-image: linear-gradient(to bottom, gray 20%, transparent 100%);
+@import url(main.css);
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  background-color: var(--cor-nav-bar);
 }
 
-.logo-home {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.btn-login {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.usuario img {
+  width: 10vw;
+  border-radius: 10rem;
 }
 
-.btn-login a {
-    font-size: var(--font-size-base-md);
+.usuario p {
+  font-weight: bold;
+  color: var(--cor-secundaria);
 }
 
-.ja-possuo-conta {
-    
-    text-align: center;
+/* apliquei isto pois estava aparecendo um sublinhado de link nas imagens */
+.icones-nav-bar a {
+  text-decoration: none;
 }
 
-.ja-possuo-conta a {
-    color: var(--subtitulo-campo-formulario-login);
-    font-size: var(--font-size-base-md);
-    font-weight: 700;
-    text-decoration: none;
+.icones-nav-bar img {
+  width: 6vw;
+}
+
+.banner {
+  padding: 0.5rem;
+}
+
+.banner img {
+  /* essa config para fazer com que a imagem pare de ocupar o espaço invisivel e empurrar o layout */
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 1rem;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    padding: 1rem;
+}
+
+.explore-nossas-opcoes h3 {
+    margin-bottom: 1rem ;
+}
+
+.opcao img {
+    width: 22vw;
+    height: 10vh;
+    border-radius: 50%;
 }
