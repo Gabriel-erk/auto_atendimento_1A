@@ -129,8 +129,8 @@ nav {
 }
 
 .titulo-tempo-espera span {
-  color: var(--cor-secundaria);
-  font-weight: bold;
+  color: var(--subtitulo-campo-formulario-login);
+  /* font-weight: bold; */
 }
 
 .estrela-avaliacao {
