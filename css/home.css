@@ -87,7 +87,7 @@ nav {
   margin: 1rem;
 }
 
-.titulo-e-link  {
+.titulo-e-link a, .titulo-e-link h3 {
   color: var(--cor-secundaria);
   text-decoration: none;
 }
