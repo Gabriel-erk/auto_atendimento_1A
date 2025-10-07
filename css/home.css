@@ -80,9 +80,16 @@ nav {
   color: var(--cor-secundaria);
 }
 
-.hospitais-proximos h3 {
-  color: var(--cor-secundaria);
+.titulo-e-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 1rem;
+}
+
+.titulo-e-link  {
+  color: var(--cor-secundaria);
+  text-decoration: none;
 }
 
 .hospitais {
@@ -92,7 +99,7 @@ nav {
 }
 
 .hospital {
-  border-bottom: 1px solid var(--cor-secundaria);
+  border-bottom: 1px solid var(--cinza-claro);
   padding-bottom:1rem ;
   display: flex;
   justify-content: space-between;
