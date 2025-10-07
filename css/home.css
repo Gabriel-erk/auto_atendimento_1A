@@ -128,10 +128,9 @@ nav {
   color: var(--cor-secundaria);
 }
 
-.desc-hospital span {
+.titulo-tempo-espera  span {
   color: var(--cor-secundaria);
   font-weight: bold;
-  font-size: 0.8rem;
 }
 
 .estrela-avaliacao {
@@ -142,6 +141,11 @@ nav {
   display: flex;
   align-items: center;
   gap: .5rem;
+}
+
+.avaliacao span {
+  color: var(--cor-secundaria);
+  font-weight: bold;
 }
 
 .avaliacao img {
