@@ -98,13 +98,45 @@ nav {
   gap: 1rem;
 }
 
-.estrela-avaliacao {
-  width: 2vw;
-}
-
-.hospital img {
+.img-hospital-proximo  {
   width: 15vw;
   height: 8vh;
   border-radius: 50%;
 }
 
+.desc-hospital p, .desc-hospital span {
+  font-weight: semibold;
+  color: var(--cor-secundaria);
+}
+
+.desc-hospital span {
+  color: var(--subtitulo-campo-formulario-login);
+  font-size: 0.8rem;
+}
+
+.estrela-avaliacao {
+  width: 2vw;
+}
+
+.avaliacao{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.avaliacao img {
+  width: 5vw;
+}
+
+.botao-acessar {
+  background-color: var(--cor-secundaria);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.botao-acessar:hover {
+  background-color: darken(var(--cor-secundaria), 10%);
+}
