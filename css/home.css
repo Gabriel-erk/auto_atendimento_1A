@@ -123,13 +123,14 @@ nav {
   border-radius: 50%;
 }
 
-.desc-hospital p, .desc-hospital span {
+.desc-hospital p {
   font-weight: semibold;
   color: var(--cor-secundaria);
 }
 
 .desc-hospital span {
-  color: var(--subtitulo-campo-formulario-login);
+  color: var(--cor-secundaria);
+  font-weight: bold;
   font-size: 0.8rem;
 }
 
