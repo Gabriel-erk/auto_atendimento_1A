@@ -79,6 +79,9 @@ nav {
   font-weight: bold;
   color: var(--cor-secundaria);
 }
+.opcao a {
+ text-decoration: none;
+}
 
 .titulo-e-link {
   display: flex;
