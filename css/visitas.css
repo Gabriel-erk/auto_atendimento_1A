@@ -1,4 +1,5 @@
 @import url(main.css);
+@import url(formulario-login.css);
 
 /*Cabeçalho*/
 
@@ -56,19 +57,23 @@ nav {
 /*main*/
 main .container_opcoes {
   display: flex;
+  flex-direction: column;
   margin-top: 30px;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
-main .container_opcoes a {
-  background-color: #0e4067;
-  color: white;
-  width: 150px;
-  height: 100px;
-  text-decoration: none;
+main .container_opcoes .opcoes a {
   display: flex;
-  align-items: center;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: var(--cor-secundaria);
+  width: 300px;
+  height: 50px;
   justify-content: center;
-  border-radius: 8px;
-}
+  align-items: center;
+  }
