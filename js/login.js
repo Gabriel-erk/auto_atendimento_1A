@@ -9,7 +9,7 @@ form.addEventListener("submit",(evento)=> {
     let enviar_form = true;
     if(cpf.value !== "123" || senha.value !== "123")
     {
-        MsgInvalido("CPF ou Senha errados")
+        MsgInvalido("#invalido","CPF ou senha errados")
         enviar_form =false
     }
     else
@@ -21,7 +21,6 @@ form.addEventListener("submit",(evento)=> {
         evento.preventDefault();
      }
     })
-
 
 
 
