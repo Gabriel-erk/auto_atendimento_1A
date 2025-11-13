@@ -28,11 +28,20 @@
         </div>
 
         <div class="formulario-login">
-            <form action="">
+            <form action="app/controller/form_cadastro.php" method="POST">
+
+                <div class="input-group">
+                    <label for="cpf" class="input-label">Nome completo</label>
+                    <div class="input-wrapper">
+                        <img src="img/cadastro/icones/person.svg" alt="Ícone de nome" class="input-icon">
+                        <input type="text" id="cpf" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                </div>
+
                 <div class="input-group">
                     <label for="cpf" class="input-label">CPF</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/envelope.svg" alt="Ícone de envelope" class="input-icon">
+                        <img src="img/cadastro/icones/envelope.svg" alt="Ícone de envelope" class="input-icon">
                         <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
                     </div>
                 </div>
@@ -40,21 +49,21 @@
                 <div class="input-group">
                     <label for="password" class="input-label">Senha</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
-                        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                        <img src="img/cadastro/icones/senha.svg" alt="Ícone de cadeado" class="input-icon">
+                        <input type="password" id="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <label for="confirm_password" class="input-label">Confirmar senha</label>
                     <div class="input-wrapper">
-                        <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
-                        <input type="password" id="confirm_password" name="confirm_password"
+                        <img src="img/cadastro/icones/senha.svg" alt="Ícone de cadeado" class="input-icon">
+                        <input type="password" id="confirm_password" name="confirmar_senha"
                             placeholder="Confirme sua senha" required>
                     </div>
                 </div>
 
-                <button class="btn-login"><a href="essenciais.html">Prosseguir</a></button>
+                <input class="btn-login" type="submit" name="submit" value="enviar">
             </form>
 
             <div class="redes-sociais">
