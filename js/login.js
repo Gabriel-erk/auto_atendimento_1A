@@ -1,26 +1,31 @@
-import { MsgInvalido } from "./funcoes.js";
-
+const form = document.getElementById("formlogin");
 const cpf = document.getElementById("cpf");
-const senha = document.getElementById("password");
-const form = document.querySelector("form");
+const senha = document.getElementById("senha");
 
+form.addEventListener("submit",(evento)=>{
+    evento.preventDefault();
 
-form.addEventListener("submit",(evento)=> {
-    let enviar_form = true;
-    if(cpf.value !== "123" || senha.value !== "123")
-    {
-        MsgInvalido("#invalido","CPF ou senha errados")
-        enviar_form =false
-    }
-    else
-    {
-        console.log("valido")
-    }
+    const dados = {
+        cpf:cpf.value,
+        senha:senha.value
+    };
 
-    if(!enviar_form){
-        evento.preventDefault();
-     }
+    fetch("app/controller/form_login.php",{
+        method: "POST",
+        headers:{"Content-Type": "application/json"},
+        body: JSON.stringify(dados)
     })
+        .then(status_login => status_login.json())
+        .then(aviso => {
+
+            if(aviso.success == false){
+                console.log("Não existe o usuario");
+            }
+            else{
+                console.log("existe usuario");
+            }
+        })
+})
 
 
 
