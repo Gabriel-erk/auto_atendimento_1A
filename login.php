@@ -29,7 +29,7 @@
         </div>
 
         <div class="formulario-login">
-            <form action="home.html">
+            <form id="formlogin" method="POST">
                 <div class="input-group">
                     <label for="cpf" class="input-label">CPF</label>
                     <div class="input-wrapper">
@@ -42,7 +42,7 @@
                     <label for="password" class="input-label">Senha</label>
                     <div class="input-wrapper">
                         <img src="img/login/icone/senha.svg" alt="Ícone de cadeado" class="input-icon">
-                        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
                     </div>
                     <div id="invalido">
                         <!-- esta div está vazia por que dentro dela vai aparecer a mensagem de erro no login caso ocorra-->
