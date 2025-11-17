@@ -34,7 +34,7 @@
                     <label for="cpf" class="input-label">Nome completo</label>
                     <div class="input-wrapper">
                         <img src="img/cadastro/icones/person.svg" alt="Ícone de nome" class="input-icon">
-                        <input type="text" id="cpf" name="nome" placeholder="Digite seu nome" required>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
                     </div>
                 </div>
 
