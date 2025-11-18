@@ -67,3 +67,23 @@ main{
   border-radius: 15px;
 }
 
+#modal-agendar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  border: none;
+  border-radius: 12px;
+  padding: 30px;
+  background: white;
+}
+
+#modal-agendar::backdrop{
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+#modal-agendar h3{
+  color: var(--cor-secundaria);
+  font-weight: bold;
+}
