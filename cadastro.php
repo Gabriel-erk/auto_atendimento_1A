@@ -24,7 +24,7 @@
         <div class="texto-login">
             <h2>Cadastro</h2>
             <p>Preencha os campos abaixo para criar uma conta.</p>
-            <p>Ou você pode <a href="login.html" style="font-size: var(--font-size-base);">Entrar aqui!</a></p>
+            <p>Ou você pode <a href="login.php" style="font-size: var(--font-size-base);">Entrar aqui!</a></p>
         </div>
 
         <div class="formulario-login">
