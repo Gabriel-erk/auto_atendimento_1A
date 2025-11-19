@@ -1,6 +1,5 @@
 <?php 
 
- //print_r($_REQUEST); Este codigo mostra o que foi recebido do formulario
 
 require_once __DIR__ . '/../config/config.php';
 
@@ -11,11 +10,13 @@ require_once __DIR__ . '/../config/config.php';
     $confirmar_senha = $_POST['confirmar_senha'];
 
     $sql = "INSERT INTO usuarios(nome,cpf,senha) VALUES('$nome','$cpf','$senha')";
-    $resultado = $conn->query($sql);
+    $result = $conn->query($sql);
 
-     //proximo passo: Validar se o cpf e senha ja estao cadastrados
+    if ($result)
+    {
+      header("location: http://localhost/auto_atendimento_1A-main/home.html");
+    }
 
-    print_r($resultado);
  }
  else{
     echo "O methodo do form está get, ou a senha e a senha a confirmacao de senha não batem";
