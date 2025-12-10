@@ -14,7 +14,7 @@ require_once __DIR__ . '/../config/config.php';
 
     if ($result)
     {
-      header("location: http://localhost/auto_atendimento_1A-main/home.html");
+      header("location: http://localhost/auto_atendimento_1A/home.html");
     }
 
  }
